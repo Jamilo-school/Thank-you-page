@@ -1,0 +1,137 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap');
+
+body {
+    font-family: 'Tektur', cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    width: 100%;
+    max-width: 420px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #aca4a4;
+  }
+  
+ 
+  
+  .popup {
+    display: none;
+    position: fixed;
+    transform: translateX(-50%);
+    background-color: #fafafa;
+    color: #1abc;
+    padding: 10px 20px;
+    left: 55%;
+    top: 265px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .containertwo{
+
+    border-radius: 15px;
+    padding: 60px;
+    width: 100%;
+    max-width: 820px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+  }
+  input{
+    padding-left:28px;
+    padding-right:28px;
+  background-color: rgb(232, 240, 254);;
+  border: 3px solid rgb(233, 232, 228);
+  border-radius: 12px;
+  font-size: 12px
+
+    
+  }
+  
+  .popup p {
+    margin: 0;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .containertwo {
+    max-width: 80%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+  
+  #back {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  #popupMessage p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    #back {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .popup {
+      width: 90%;
+      max-width: 250px;
+      padding: 15px;
+    }
+  
+    #popupMessage p {
+      font-size: 14px;
+    }
+  }
+  
