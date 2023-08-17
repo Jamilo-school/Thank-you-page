@@ -111,7 +111,7 @@ body {
   #popupMessage p {
     font-size: 16px;
     margin: 0;
-  }
+  }z
   
   /* Responsive styles */
   @media (max-width: 768px) {
