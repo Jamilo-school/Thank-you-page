@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
       popupMessage.style.display = "none";
       // Redirect to the new link address after 4 seconds (adjust the time as needed)
-      window.location.href = "https://jamilo-school.github.io/School-Knec-Examinations-Portal/"; // Replace with your desired link address
+      window.location.href = "https://www.google.com/"; // Replace with your desired link address
     }, 3000);
   }
 
