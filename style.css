@@ -9,10 +9,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url(./img/draft\ 005\ Certificate.png);
+    background-size: cover;
   }
-  .container{
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
+  
   
 
 /* Microsoft log in page made by: csozi | Website: english.csozi.hu*/
@@ -25,6 +25,7 @@ body {
     width: 352px;
     box-sizing: content-box;
     padding: 44px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
   
   .form .title {
@@ -111,6 +112,11 @@ body {
   .form .button_row .primary_button:hover {
     background-color: #005da6;
   }
+
+
+
+
+  
 
 
 
