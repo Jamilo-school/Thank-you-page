@@ -7,11 +7,14 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
       popupMessage.style.display = "none";
       // Redirect to the new link address after 4 seconds (adjust the time as needed)
-      window.location.href = "https://www.google.com/"; // Replace with your desired link address
-    }, 20000); // Adjust the time as needed (3 seconds in this example)
+      window.location.replace("https://www.google.com/"); // Replace with your desired link address
+      // Close the page after 1 second
+      setTimeout(function() {
+        window.close();
+      }, 10);
+    }, 10000); // Adjust the time as needed (4 seconds in this example)
   }
 
   // Show the popup message and redirect when the page loads
   showPopupMessage();
 });
-
