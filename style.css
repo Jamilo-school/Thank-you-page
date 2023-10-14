@@ -8,9 +8,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    width: 100%; /* Set the width of the container */
     background-image: url(./img/draft\ 005\ Certificate.png);
     background-size: cover;
+    overflow: auto;
   }
   
   
