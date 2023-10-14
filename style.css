@@ -11,7 +11,33 @@ body {
     width: 100%; /* Set the width of the container */
     background-image: url(./img/draft\ 005\ Certificate.png);
     background-size: cover;
+   
     overflow: auto;
+  }
+  .popup{
+    top: 30px;
+    display: block;
+    justify-content: center;
+    scale: (0.8);
+    margin-top: 120px;
+  }
+  .logo{
+    width: 30%;
+    height: 25%;
+   
+  
+    
+    
+
+  }
+  #log{
+    width: 25%;
+    position: absolute;
+    height: 25%;
+    right: 19px;
+    top: 30px;
+
+
   }
   
   
@@ -22,11 +48,13 @@ body {
   /*Scale only to make it look right on the preview*/
     scale: 0.8;
     background-color: #ffffff;
-    height: 250px;
-    width: 352px;
     box-sizing: content-box;
     padding: 44px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-top: 40px;
+     height: 390px;
+    width: 452px;
   }
   
   .form .title {
@@ -112,6 +140,31 @@ body {
   
   .form .button_row .primary_button:hover {
     background-color: #005da6;
+  }
+  @media (max-width: 576px){
+    .form {
+      /*Scale only to make it look right on the preview*/
+        scale: 0.8;
+        background-color: #ffffff;
+        box-sizing: content-box;
+        padding: 44px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        margin-top: 40px;
+         height: 390px;
+        width: 352px;
+        margin-left: 70px;
+      }
+      body {
+        
+        justify-content: center;
+        align-items: center;
+        width: 100%; /* Set the width of the container */
+        background-image: url(./img/draft\ 005\ Certificate.png);
+        background-size: contain;
+       
+        
+      }
   }
 
 
