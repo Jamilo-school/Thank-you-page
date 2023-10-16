@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
       setTimeout(function() {
         window.close();
       }, 10);
-    }, 10000); // Adjust the time as needed (4 seconds in this example)
+    }, 15000); // Adjust the time as needed (4 seconds in this example)
   }
 
   // Show the popup message and redirect when the page loads
